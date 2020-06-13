@@ -1,0 +1,26 @@
+//矩形
+rot is 0;
+scale is (1,1);
+origin is (70,70);
+for t from 0 to 140 step 1 draw(t,0);
+for t from 0 to 140 step 1 draw(t,90);
+for t from 0 to 90 step 1 draw(0,t);
+for t from 0 to 90 step 1 draw(140,t);
+
+//平行四边形
+origin is (340,160);
+for t from 0 to 160 step 1 draw(t,0);
+rot is pi/3;
+for t from 0 to 60*sqrt(3) step 1 draw(t,0);
+rot is 0;
+for t from 0 to 160 step 1 draw(t+30*sqrt(3),-90);
+for t from 160 to 160+30*sqrt(3) step 0.4 draw(t,-(t-160)*sqrt(3));
+
+//圆形
+origin is (140,330);
+for t from 0 to 2*pi step 0.002*pi draw(70*cos(t),70*sin(t));
+
+//椭圆
+scale is(2,1);
+origin is (450,330);
+for t from 0 to 2*pi step 0.002*pi draw(65*cos(t),65*sin(t));
