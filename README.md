@@ -6,7 +6,7 @@
 
 绘图程序的语法要求如下：
 
-![](http://github.com/a-psycho/plottingInterpreter/tree/master/images/image1.png)
+![](http://github.com/a-psycho/plottingInterpreter/raw/master/images/image1.png)
 
 本实验采用java编写
 
